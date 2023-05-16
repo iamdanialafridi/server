@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "carts",
+  "info": {
+    "singularName": "cart",
+    "pluralName": "carts",
+    "displayName": "Cart",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pId": {
+      "type": "integer"
+    },
+    "size": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "float"
+    },
+    "quantity": {
+      "type": "integer"
+    }
+  }
+}
